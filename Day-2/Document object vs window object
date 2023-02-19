@@ -1,0 +1,32 @@
+Document Object :
+    
+    It is an Javascript code(DOM - Document Object Model)
+    It can Change the code in HTML code and select the selectors like 
+                    Class Name
+                    ID 
+                    Tag Name
+    Select the Selectors and can play the codes with javascript
+    Example : 
+    document.getElementById()
+    document.getElementByTagName()
+    document.getElemetByClassName()
+    document.write()
+    document.innerHTML
+    document.innerText
+    document.textContent
+    
+Window Object :
+    
+    This object can control the Browser Window
+    This window object contains some commamnds
+    like 
+    window.open()
+    window.close()
+    window.alert()
+    window.prompt()
+    window.confirm()
+    window.setInterval()
+    window.setTimeOut()
+    window.innerHeigth()
+    window.innerWidth()
+    
