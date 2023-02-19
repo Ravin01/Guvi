@@ -1,0 +1,7 @@
+DIFFERENCE BETWEEN HTTP1.1 VS HTTP
+
+HTTP1.1 :
+		 HTTP 1.1 is the latest version of Hypertext Transfer Protocol (HTTP), the World Wide Web application protocol that runs on top of the Internet's TCP/IP suite of protocols. HTTP 1.1 provides faster delivery of Web pages than the original HTTP and reduces Web traffic
+ 
+ HTTP/2 :
+ 		 HTTP/2 is the second version of the HTTP protocol aiming to make applications faster, simpler, and more robust by improving many of the drawbacks of the first HTTP version. The primary goals of HTTP/2 are: Enable request and response multiplexing. Header compression
