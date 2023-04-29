@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request</title>
+</head>
+
+<body>
+    <h1>
+        All rest counties flags, name, region, subregion, population
+    </h1>
+    <h4>
+        Output displayed in console
+    </h4>
+
+    <script>
+        let request = new XMLHttpRequest();
+        request.open('GET', 'https://restcountries.com/v3.1/all');
+        request.send();
+        request.onload = function() {
+            let req = JSON.parse(request.response);
+            // console.log(req[0].flags);
+            for (let i = 0; i < req.length; i++) {
+                console.log(req[i].flags);
+                console.log(req[i].name);
+                console.log('Region : ' + req[i].region);
+                console.log('Sub - region : ' + req[i].subregion);
+                console.log('Population : ' + req[i].population);
+            }
+
+            // console.log(req[0])
+        }
+    </script>
+</body>
+
+</html>
